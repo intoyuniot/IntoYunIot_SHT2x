@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For IntoRobot
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+
+IntoYunIot_SHT2x  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# methods names in commond
+softReset   KEYWORD2
+setHeater   KEYWORD2
+readRH      KEYWORD2
+readT       KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
