@@ -1,22 +1,5 @@
 IntoYunIot_SHT2x
 ==================
-the library for the SHT2x sensor
 
+library for the SHT2x humidity and temperature sensors
 
-
-
-
-Components Required
----
-
-
-Example Usage
----
-
-
-
-Building locally
----
-
-Useful Links
----

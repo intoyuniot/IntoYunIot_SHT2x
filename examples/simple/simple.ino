@@ -1,4 +1,11 @@
-#include "IntoYunIot_SHT2x"
+/*
+ 简单示例程序
+ 读取温湿度
+*/
+
+#include "IntoYunIot_SHT2x.h"
+
+IntoYunIot_SHT2x SHT2x;
 
 void setup()
 {

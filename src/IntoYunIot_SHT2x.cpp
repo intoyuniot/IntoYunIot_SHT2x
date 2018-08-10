@@ -55,7 +55,6 @@ void IntoYunIot_SHT2x::writeUserRegister(uint8_t userRegister)
      Wire.endTransmission();
 }
 
-
 uint16_t IntoYunIot_SHT2x::readMeasurement(SHT2xMeasureType type)
 {
     uint16_t value = 0;
@@ -64,12 +63,14 @@ uint16_t IntoYunIot_SHT2x::readMeasurement(SHT2xMeasureType type)
 
     Wire.beginTransmission(SHT2xADDR);
     switch (type) {
-    case HUMIDITY:
-        Wire.write(MEASUREMENT_RH_POLL);
-        break;
-    case TEMP:
-        Wire.write(MEASUREMENT_T_POLL);
-        break;
+        case HUMIDITY:
+            Wire.write(MEASUREMENT_RH_POLL);
+            break;
+        case TEMP:
+            Wire.write(MEASUREMENT_T_POLL);
+            break;
+        default:
+            break;
     }
     Wire.endTransmission();
 

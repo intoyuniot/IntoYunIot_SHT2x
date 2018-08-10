@@ -1,8 +1,8 @@
 {
     "name": "IntoYunIot_SHT2x",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": "SHT20,SHT21,SHT,SHT2x",
-    "description": "SHT2x温湿度检测传感器库",
+    "description": "library for the SHT2x humidity and temperature sensors",
     "repository": {
         "type": "git",
         "url": "https://github.com/intoyuniot/IntoYunIot_SHT2x.git"
